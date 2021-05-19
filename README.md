@@ -71,13 +71,13 @@ Checks whether the entire graph is connected.
 
 #### method shortest_path
 
-<pre>def shortest_path(self, a, b)</pre>
+<pre>def shortest_path(self, start, target)</pre>
 
 Returns the shortest path between vertices with names start and target, if one exists, and the combined weight of the path.\
 If start and target are not connected None is returned. If start or target does not exist None is returned.\
 **:param start:** _\<any object, not NoneType\>_ name of the start vertex\
 **:param target:** _\<any object, not NoneType\>_ name of the target vertex\
-**:return:** _\<list or None\>, \<int, float or None\>_ the shortest path between name1 and name2 (list) and the combined weight
+**:return:** _\<list or None\>, \<int, float or None\>_ the shortest path between start and target (list) and the combined weight
  of the path
 
 #### method total_vertices
