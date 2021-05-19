@@ -66,7 +66,7 @@ If name1 or name2 does not exist False is returned.\
 
 <pre>def is_connected(self)</pre>
 
-Checks whether the entire graph is connected.
+Checks whether the entire graph is connected.\
 **:return:** \<boolean\> True or False depending on if graph is connected
 
 #### method shortest_path
