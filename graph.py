@@ -1,4 +1,4 @@
-# Theo Ingelstam, grudat21, övn7
+# Theo Ingelstam
 
 """
 Library to create weighted undirected graphs and perform operations on the graph.
